@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jets", github: "rubyonjets/jets", branch: "master"
+gem "jets"
 
 gem "zeitwerk", ">= 2.6.12"
 

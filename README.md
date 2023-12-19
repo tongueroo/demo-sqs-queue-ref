@@ -1,4 +1,4 @@
-# Demo Debug SQS Queue Ref
+# Jets Demo Project: Debug SQS Queue Ref
 
 Related: 
 

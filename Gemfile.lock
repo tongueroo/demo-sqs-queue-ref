@@ -1,3 +1,48 @@
+GIT
+  remote: https://github.com/rubyonjets/jets.git
+  revision: 02102d9e0935e9002e95692ebb36b8c762623a81
+  branch: master
+  specs:
+    jets (5.0.4)
+      actionmailer (~> 7.0.8)
+      actionpack (~> 7.0.8)
+      actionview (~> 7.0.8)
+      activerecord (~> 7.0.8)
+      activesupport (~> 7.0.8)
+      aws-logs
+      aws-mfa-secure (~> 0.4.0)
+      aws-sdk-apigateway
+      aws-sdk-cloudformation
+      aws-sdk-cloudwatchlogs
+      aws-sdk-dynamodb
+      aws-sdk-kinesis
+      aws-sdk-lambda
+      aws-sdk-s3
+      aws-sdk-sns
+      aws-sdk-sqs
+      aws-sdk-ssm
+      cfn-status (>= 0.5.0)
+      cfn_camelizer (>= 0.4.9)
+      cfn_response
+      cli-format (>= 0.4.0)
+      dotenv
+      dsl_evaluator (>= 0.3.0)
+      gems
+      hashie
+      jets-api (>= 0.1.4)
+      jets-git
+      jets-html-sanitizer
+      kramdown
+      memoist
+      mini_mime
+      rack
+      railties (~> 7.0.8)
+      rainbow
+      recursive-open-struct
+      text-table
+      thor
+      zeitwerk (>= 2.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -126,45 +171,6 @@ GEM
     hashie (5.0.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jets (5.0.4)
-      actionmailer (~> 7.0.8)
-      actionpack (~> 7.0.8)
-      actionview (~> 7.0.8)
-      activerecord (~> 7.0.8)
-      activesupport (~> 7.0.8)
-      aws-logs
-      aws-mfa-secure (~> 0.4.0)
-      aws-sdk-apigateway
-      aws-sdk-cloudformation
-      aws-sdk-cloudwatchlogs
-      aws-sdk-dynamodb
-      aws-sdk-kinesis
-      aws-sdk-lambda
-      aws-sdk-s3
-      aws-sdk-sns
-      aws-sdk-sqs
-      aws-sdk-ssm
-      cfn-status (>= 0.5.0)
-      cfn_camelizer (>= 0.4.9)
-      cfn_response
-      cli-format (>= 0.4.0)
-      dotenv
-      dsl_evaluator (>= 0.3.0)
-      gems
-      hashie
-      jets-api (>= 0.1.4)
-      jets-git
-      jets-html-sanitizer
-      kramdown
-      memoist
-      mini_mime
-      rack
-      railties (~> 7.0.8)
-      rainbow
-      recursive-open-struct
-      text-table
-      thor
-      zeitwerk (>= 2.6.0)
     jets-api (0.1.5)
     jets-git (0.2.1)
       activesupport
@@ -246,7 +252,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  jets (~> 5.0.4)
+  jets!
   rspec
   zeitwerk (>= 2.6.12)
 

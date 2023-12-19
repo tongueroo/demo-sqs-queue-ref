@@ -1,11 +1,7 @@
-# Jets Project
+# Demo Debug SQS Queue Ref
 
-This README would normally document whatever steps are necessary to get the application up and running.
+Related: 
 
-Things you might want to cover:
+* https://community.boltops.com/t/ruby-on-jets-5-0-release-improvements-galore/1123/7?u=tung
+* https://github.com/rubyonjets/jets/pull/697
 
-* Dependencies
-* Configuration
-* Database setup
-* How to run the test suite
-* Deployment instructions
